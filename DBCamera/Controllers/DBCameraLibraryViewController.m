@@ -264,7 +264,7 @@
 - (UIView *) topContainerBar
 {
     if ( !_topContainerBar ) {
-        _topContainerBar = [[UIView alloc] initWithFrame:(CGRect){ 0, 0, CGRectGetWidth(self.view.bounds), 65 }];
+        _topContainerBar = [[UIView alloc] initWithFrame:(CGRect){ 0, 20, CGRectGetWidth(self.view.bounds), 65 }];
         [_topContainerBar setBackgroundColor:RGBColor(0x000000, 1)];
         
         UIButton *closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
